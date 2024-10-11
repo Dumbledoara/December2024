@@ -101,6 +101,9 @@
                 flex-flow: column;
                 padding: 0%;
                 justify-content: space-evenly;
+                animation-duration: 3s;
+                animation-name: slidein;
+                
 
             }
 
@@ -109,6 +112,9 @@
                 flex-flow: column;
                 padding: 0%;
                 justify-content: space-evenly;
+                animation-duration: 3s;
+                animation-name: slidein;
+                
 
             }
             .container3{
@@ -116,6 +122,9 @@
                 flex-flow: column;
                 padding: 0%;
                 justify-content: space-evenly;
+                animation-duration: 3s;
+                animation-name: slidein;
+                
 
             }
             .container4{
@@ -123,6 +132,9 @@
                 flex-flow: column;
                 padding: 0%;
                 justify-content: 50%;
+                padding: 20px;
+                animation: fadeIn 4s;
+                
 
             }
             button{
@@ -130,6 +142,25 @@
                 margin-bottom: 400px;
             }
         }
+           @keyframes fadeIn {
+                            0%{opacity: 0;}
+                            100% {opacity: 1;}
+                            
+                        }
+                        
+        @keyframes slidein {
+            from {
+                translate: 150vw 0;
+                scale: 200% 1;
+            }
+
+            to {
+                translate: 0 0;
+                scale: 100% 1;
+            }
+
+    
+  }
         </style>
     </head>
     
