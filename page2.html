@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width">
+             <title>Memories</title>
+
+        <style>
+            .title{
+                text-align: center;
+                color: aqua;
+            }
+            *{
+                background-color: rgb(20, 130, 36);
+            }
+            .container2{
+                display: flex;
+                justify-content: space-evenly;
+                animation-duration: 3s;
+                animation-name: slidein;
+                
+            }
+            p{
+                font-size: large;
+                color: rgb(1, 29, 63);
+            }
+          img{
+            height: 200px;}
+
+
+        @keyframes slidein {
+            from {
+                translate: 150vw 0;
+                scale: 200% 1;
+            }
+
+            to {
+                translate: 0 0;
+                scale: 100% 1;
+            }
+
+    
+  }
+        /*@keyframes fadeInOut {
+            From{
+                translate: 150vw 0;
+                scale: 200% 1;
+            }
+            
+            To{
+                translate: 0 0;
+                scale: 100% 1;
+            }
+        }*/
+            .container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                animation: fadeIn 4s;
+                }
+
+        
+
+            
+
+            .container3{
+                display: flex;
+                justify-content: space-evenly;
+                animation-duration: 3s;
+                animation-name: slidein;
+            }
+            @keyframes fadeIn {
+                            0%{opacity: 0;}
+                            100% {opacity: 1;}
+                            
+                        }
+
+           .Container4{
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+                animation: fadeIn 4s;
+                          }
+            button{
+             
+                background-color:aquamarine;
+                
+            }
+
+            @media (min-width:200px) and (max-width: 430px){
+            .title{
+                font-size: small;
+            }
+
+            img{
+                
+                height: 200px;
+            }
+            .container{
+                display: flex;
+                flex-flow: column;
+                padding: 0%;
+                justify-content: space-evenly;
+
+            }
+
+            .container2{
+                display: flex;
+                flex-flow: column;
+                padding: 0%;
+                justify-content: space-evenly;
+
+            }
+            .container3{
+                display: flex;
+                flex-flow: column;
+                padding: 0%;
+                justify-content: space-evenly;
+
+            }
+            .container4{
+                display: flex;
+                flex-flow: column;
+                padding: 0%;
+                justify-content: 50%;
+
+            }
+            button{
+                margin-left: 200px;
+                margin-bottom: 400px;
+            }
+        }
+        </style>
+    </head>
+    
+    <body>
+        <div class="title">
+            <h2>Some photos from the past</h2>
+        </div>
+
+        <div class="container">
+            <div >
+                <img class="img1" src="Images/baby.JPG">
+                <p class="img1">baby yuki</p>
+            </div>
+            <div> 
+                <img class="img1" src="Images/car1.JPG">
+
+            </div>
+        </div>
+        <div class="container2">
+            <div>
+                <img class="img2" src="Images/weeknd.jpg">
+                <p class="img2"> The WEEKND!!</p>
+            </div>
+            <div>
+                <img class="img2" src="Images/view1.jpg">
+            </div>
+        </div>
+        <div class="container3">
+            <div>
+                <img class="img3" src="Images/stadium1.jpg">
+                    <p>Inside the actual stadium!</p>
+            </div>
+            <div>
+                <img class="img3" src="Images/lumen.jpg">
+            </div>
+
+        </div>
+        <div class="Container4">
+        <a href="page3.html">
+            <button>NEXT</button>
+         </a>   
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width">
+             <title>December</title>
+
+        <style>
+            *{
+                background-color: powderblue;
+            
+            }
+
+            @keyframes fadeIn {
+                 0%{opacity: 0;}
+                 100% {opacity: 1;}
+                            
+                        }
+
+
+           img{
+            height: 300px;
+            width: 300px;
+            display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                animation: fadeIn 5s;
+           } 
+        .im1{
+            height: 250px;
+            width: 200px;
+        }
+
+        .im3{
+           
+            height: auto;
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly
+        }
+
+        .container2{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 10px
+        }
+
+        button{
+            border: 0;
+        }
+        h1{
+            color: rgb(177, 21, 21);
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Pick one</h1>
+       <div class="container">
+        <div>
+           <a href="fail.html">
+            <button><img src="Images/view2.jpg" alt=""></button>
+           </a>
+        </div>
+            <a href="final.html">
+                <button><img class="im1" src="Images/weeknd2.jpg" alt=""></button>
+               </a>
+       </div>
+    </div>
+    <div class="container2">
+       <div>
+               <a href="fail.html">
+            <button><img class="im1" src="Images/dumpling.jpg" alt=""></button>
+           </a>
+        </div>
+        <div> 
+            <a href="fail.html">
+                <button><img class="im3" src="Images/eye.JPG" alt=""></button>
+               </a>
+        </div>
+        <div>
+        
+            <a href="fail.html">
+                <button><img class="im3" src="Images/view1.jpg" alt=""></button>
+               </a>
+        </div>
+    </div>
+
+    </body>
+</html>

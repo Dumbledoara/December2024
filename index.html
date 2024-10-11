@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width">
+             <title>Yuki's Dream</title>
+
+        <style>
+            
+            *{
+                background-color: aquamarine;
+            }
+            /*.container{
+                border: 10px;
+                border-color: black;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr; 
+            
+            }*/
+
+            .container{
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-evenly;
+            }
+            .title{
+                grid-column: span 2;
+                margin-top: 100px;
+                text-align: center;
+                font-size:50px;
+                color: rgb(99, 9, 173);
+                border:px;
+                border-color: blueviolet;
+            }
+            img{
+                margin-top: 50px;
+                margin-left: 50px;
+                height: 300px;
+
+            }
+
+            button{
+                margin-left: 50%;
+                grid-column: span 2;
+                margin-bottom: 100px;
+                padding: 10px;
+                color: rgb(231, 107, 107);
+                background-color: darkslategray;
+                font-size: large;
+            }
+        p{
+            
+            margin-left: 50px;
+            font-size: larger;
+            color: rgb(84, 46, 158);
+        }
+
+        @media (min-width:200px) and (max-width: 430px){
+            .title{
+                font-size: small;
+            }
+
+            img{
+                
+                height: 200px;
+            }
+            .container{
+                display: flex;
+                flex-flow: column;
+                padding: 0%;
+                justify-content: space-evenly;
+
+            }
+            button{
+                margin-left: 200px;
+                margin-bottom: 400px;
+            }
+        }
+            
+        
+
+        </style>
+    </head>
+
+    <body>
+         <div class="title">
+                 <h2>Welcome to Yuki's Page</h2>
+            </div>
+        <div class="container">
+          
+            <div class="image1">
+                <img src="Images/Poopy.PNG">
+                     <p>It Yuki</p>
+            </div>
+            <div class="image2">
+                <img src="Images/Fam.png">
+                    <p>Family photo after folfing</p>
+             </div>
+            <div>
+                <img src="Images/sleepy.jpg">
+                    <p> Yuki is a sleepy dog </p>
+            </div>
+            <div>
+                <img src="Images/stairs.jpg">
+                <p>Waiting for breakfast</p>
+            </div>
+       
+</div>
+
+        <a href="./page2.html">
+        <button>TAP ME</button>
+    </a> 
+    </body>
+</html>
